@@ -45,7 +45,7 @@ https://github.com/Jacqueline-Stiehl/pwa-texteditor-jstiehl
 
 ## URL of deployed application
 
-https://jacqueline-stiehl.github.io/mvc-tech-blog-jstiehl/
+https://jacqueline-stiehl.github.io/pwa-texteditor-jstiehl/
 
 ## Heroku
 
