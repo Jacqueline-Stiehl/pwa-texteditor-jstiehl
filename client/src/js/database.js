@@ -18,9 +18,9 @@ const initdb = async () =>
 //export const putDb = async (content) => console.error('putDb not implemented');
 
 export const putDb = async (content) => {
-  const openTextEditorDb = await openDB(texteditor_db, 1);
-  const transAction = openTextEditorDb.transaction(texteditor_db, "readwrite");
-  const store = transAction.objectStore(texteditor_db);
+  const openTextEditorDb = await openDB("jate", 1);
+  const transAction = openTextEditorDb.transaction("jate", "readwrite");
+  const store = transAction.objectStore("jate");
 
   const request = store.put({ id: 1, value: content });
   const result = await request;
@@ -33,9 +33,9 @@ export const putDb = async (content) => {
 //export const getDb = async () => console.error("getDb not implemented");
 
 export const getDb = async () => {
-  const openTextEditorDb = await openDB(texteditor_db, 1);
-  const transAction = openTextEditorDb.transaction(texteditor_db, "readonly");
-  const store = transAction.objectStore(texteditor_db);
+  const openTextEditorDb = await openDB("jate", 1);
+  const transAction = openTextEditorDb.transaction("jate", "readonly");
+  const store = transAction.objectStore("jate");
 
   const request = store.get(1);
   const result = await request;
