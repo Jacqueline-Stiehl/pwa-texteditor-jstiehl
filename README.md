@@ -49,6 +49,6 @@ https://jacqueline-stiehl.github.io/mvc-tech-blog-jstiehl/
 
 ## Heroku
 
-Heroku app name: mvc-techblog-jstiehl:
+Heroku app name: pwa-texteditor-jstiehl:
 
-https://mvc-techblog-jstiehl-e87070ff2360.herokuapp.com/
+https://pwa-texteditor-jstiehl-2eb963dc3224.herokuapp.com/
