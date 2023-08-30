@@ -26,7 +26,7 @@ The license for this project is MIT and the link for license information is http
 
 ## Contributing/Acknowledgements
 
-Tips from University of Minnesota Full Stack Bootcamp instructor Gary Almes and notes from class sessions.
+Tips from University of Minnesota Full Stack Bootcamp instructor Gary Almes and notes from class sessions. Our instructor gave us notes/code to help with this assignment.
 
 Tips from class TA Katy Vincent.
 
